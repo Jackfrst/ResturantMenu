@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.qestion2.app">
+  <grid id="27dc6" binding="mainbody" layout-manager="GridLayoutManager" row-count="14" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="2" vgap="2">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="565" height="405"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="5b78b" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="250" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="16" style="1"/>
+          <horizontalAlignment value="10"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="31db6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="4" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Algerian" size="20" style="1"/>
+          <labelFor value="5b78b"/>
+          <text value="You'r Order is :"/>
+        </properties>
+      </component>
+      <component id="51ea4" class="javax.swing.JButton" binding="BURGERButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT Black" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="BURGER"/>
+        </properties>
+      </component>
+      <component id="89548" class="javax.swing.JButton" binding="a2XButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT Black" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="2X"/>
+        </properties>
+      </component>
+      <component id="22626" class="javax.swing.JButton" binding="PIZZAButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT Black" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="PIZZA"/>
+        </properties>
+      </component>
+      <component id="61bb9" class="javax.swing.JButton" binding="a2XButton1" default-binding="true">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT Black" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="2X"/>
+        </properties>
+      </component>
+      <component id="f680e" class="javax.swing.JButton" binding="a2XButton2" default-binding="true">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT Black" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="2X"/>
+        </properties>
+      </component>
+      <component id="eae21" class="javax.swing.JButton" binding="orderButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="3" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT Black" size="20" style="1"/>
+          <text value="Order"/>
+        </properties>
+      </component>
+      <component id="c9fe9" class="javax.swing.JButton" binding="a1XButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bernard MT Condensed" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="-1X"/>
+        </properties>
+      </component>
+      <component id="7c22e" class="javax.swing.JButton" binding="a1XButton1" default-binding="true">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bernard MT Condensed" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="-1X"/>
+        </properties>
+      </component>
+      <component id="1b8e" class="javax.swing.JButton" binding="a1XButton2" default-binding="true">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bernard MT Condensed" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="-1X"/>
+        </properties>
+      </component>
+      <component id="38396" class="javax.swing.JButton" binding="PASTAButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT Black" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="PASTA"/>
+        </properties>
+      </component>
+      <component id="a3a1c" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="20" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="502e5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="3" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Algerian" size="20" style="1"/>
+          <labelFor value="5b78b"/>
+          <text value="You'r Fare is :"/>
+        </properties>
+      </component>
+      <component id="366c1" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="2" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font name="Arial Black" size="14" style="1"/>
+          <horizontalAlignment value="2"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bb719" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="3" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font size="20" style="1"/>
+        </properties>
+      </component>
+      <component id="5783d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="6" row-span="4" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="      Menu:"/>
+        </properties>
+      </component>
+      <component id="f6f66" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="6" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="  Pasta   240/="/>
+        </properties>
+      </component>
+      <component id="f50" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="6" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="  Pizza    320/="/>
+        </properties>
+      </component>
+      <component id="a09ea" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="6" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="  Burger 220/="/>
+        </properties>
+      </component>
+      <component id="e8610" class="javax.swing.JButton" binding="clearButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="6" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="1"/>
+          <text value="Clear"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
